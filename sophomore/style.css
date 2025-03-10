@@ -1,0 +1,64 @@
+/* Link Style */
+
+a {
+  color: #007BFF;          /* A nice blue color */
+  text-decoration: none;   /* Removes the underline */
+  transition: color 0.3s;   /* Smooth color transition on hover */
+}
+
+a:hover,
+a:focus {
+  color: #0056b3;          /* Darker blue for hover */
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #551A8B;          /* A different color for visited links */
+}
+
+a:active {
+  color: #FF0000;          /* Change to red when clicked */
+}
+
+/* Link Style */
+
+
+
+.home {
+  padding: 20px;
+  background-color: #d1d1d1; /* Optional: for visual separation */
+  width: 8%;
+}
+
+
+.header {
+  background-color: #4b2e83; /* Optional: for visual separation */
+}
+
+.header_interior {
+  padding: 2px;
+  margin: 10px;
+  color: #d7c59a;
+  text-align: center;
+}
+
+
+section {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  /* zoom: 0.8; */
+  align-items: center;
+}
+
+p {
+  flex: 1;                 
+  padding: 30px;
+  margin: 10px;
+  background-color: #f1f1f1; /* Optional: for visual separation */
+}
+
+section img {
+  max-width: 40%;  /* Adjust as needed */
+  height: auto;
+}
